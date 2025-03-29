@@ -12,11 +12,10 @@ body {
 }
 
 .background {
-    background-image: url("./images/mountain.jpg");
+    background-image: url("./images/img3.jpg");
     height: 100vh;
     width: 100%;
     background-size: cover;
-
     background-repeat: no-repeat;
 }
 
@@ -39,9 +38,13 @@ body {
     gap: 1rem;
 }
 
-.settings .fa-cog {
-    font-size: 3rem;
-    color: white;
+.settings .fa-gear {
+    font-size: 2rem;
+    color: black;
+}
+
+.settings .fa-gear:hover {
+    color: blue;
 }
 
 .settings-content {
@@ -84,4 +87,12 @@ body {
 .time-container div {
     font-size: 4rem;
     color: white;
+}
+
+
+@media (max-width:600px) {
+    .background{
+        background-color: black;
+        color: white;
+    }
 }
